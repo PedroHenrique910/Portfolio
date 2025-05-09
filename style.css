@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: black;
+}
+
+#apresentacao-nome {
+  display: inline;
+  position: relative;
+  top: 5px;
+}
+
+#apresentacao-cargo {
+  display: inline;
+  position: relative;
+  padding: 1px;
+}
+
+#cabecalho {
+  background: blue;
+  margin: 0 auto;
+  color: #adcbf8;
+  text-align: center;
+  padding: px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#menu a:link,
+a:visited {
+  color: white;
+}
+
+#menu a:hover {
+  background: white;
+  color: blue;
+}
+
+#menu a {
+  color: white;
+  padding: 15px;
+  position: relative;
+  bottom: 20px;
+  left: 500px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#container {
+  width: 1200px;
+  background: wheat;
+}
+
+#introdução {
+  color: black;
+  background: #d6eaf8;
+  padding: 15px;
+  font-size: 22px;
+  margin-top: 15px;
+  width: 750px;
+  height: 500px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  float: left;
+  position: relative;
+}
+
+p {
+  position: relative;
+  top: 130px;
+}
+
+#imagem-introducao img {
+  display: inline;
+  width: 400px;
+  height: 500px;
+  float: right;
+  margin-top: 30px;
+}
+
+#menu2 {
+  padding: 20px;
+}
+#menu2 a:link,
+a:visited {
+  color: white;
+}
+
+#menu2 a:hover {
+  background: white;
+  color: blue;
+}
+
+#menu2 a {
+  color: white;
+  padding: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#menu2 a {
+  padding: 20px;
+}
+
+#menu3 {
+  padding: 20px;
+}
+#menu3 a:link,
+a:visited {
+  color: white;
+}
+
+#menu3 a:hover {
+  background: white;
+  color: blue;
+}
+
+#menu3 a {
+  color: white;
+  padding: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#menu3 a {
+  padding: 20px;
+}
+
+h4 {
+  background: gray;
+  color: black;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+#projetos {
+  margin: 100px 0px 0px 60px;
+  width: 600px;
+  display: inline;
+}
