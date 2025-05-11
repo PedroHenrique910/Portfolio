@@ -45,17 +45,16 @@ a:visited {
 
 #menu a {
   color: white;
-  padding: 15px;
+  padding: 20px;
   position: relative;
   bottom: 20px;
-  left: 500px;
+  left: 470px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 
 #container {
   width: 1200px;
-  background: wheat;
 }
 
 #introdução {
@@ -72,7 +71,7 @@ a:visited {
   position: relative;
 }
 
-p {
+#p-introducao {
   position: relative;
   top: 130px;
 }
@@ -146,4 +145,18 @@ h4 {
   margin: 50px 0px 50px 50px;
   width: 600px;
   display: inline;
+}
+
+#contato1 {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 10px;
+}
+
+#contato {
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  top: 490px;
 }
