@@ -28,6 +28,11 @@ body {
     "Lucida Sans", Arial, sans-serif;
 }
 
+#menu a.active {
+  background: white;
+  color: blue !important;
+}
+
 a {
   text-decoration: none;
 }
@@ -86,6 +91,12 @@ a:visited {
 #menu2 {
   padding: 20px;
 }
+
+#menu2 a.active {
+  background: white;
+  color: blue !important;
+}
+
 #menu2 a:link,
 a:visited {
   color: white;
