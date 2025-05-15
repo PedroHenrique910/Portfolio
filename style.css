@@ -28,12 +28,6 @@ body {
     "Lucida Sans", Arial, sans-serif;
 }
 
-#home #cabecalho #menu .home a {
-  background-position: right bottom;
-  background: white;
-  color: blue;
-}
-
 a {
   text-decoration: none;
 }
@@ -178,6 +172,36 @@ h4 {
   text-align: center;
   margin: 0 auto;
   margin-top: 5px;
+}
+
+#menu4 {
+  padding: 20px;
+}
+
+#menu4 a.sites {
+  background: white;
+  color: blue;
+}
+
+#menu4 a:link,
+a:visited {
+  color: white;
+}
+
+#menu4 a:hover {
+  background: white;
+  color: blue;
+}
+
+#menu4 a {
+  color: white;
+  padding: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#menu4 a {
+  padding: 20px;
 }
 
 #projetos {
