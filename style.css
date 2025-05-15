@@ -28,13 +28,19 @@ body {
     "Lucida Sans", Arial, sans-serif;
 }
 
-#menu a.active {
+#home #cabecalho #menu .home a {
+  background-position: right bottom;
   background: white;
-  color: blue !important;
+  color: blue;
 }
 
 a {
   text-decoration: none;
+}
+
+#menu a.home {
+  background: white;
+  color: blue;
 }
 
 #menu a:link,
@@ -92,9 +98,9 @@ a:visited {
   padding: 20px;
 }
 
-#menu2 a.active {
+#menu2 a.sobre-mim {
   background: white;
-  color: blue !important;
+  color: blue;
 }
 
 #menu2 a:link,
@@ -138,6 +144,12 @@ a:visited {
 #menu3 {
   padding: 20px;
 }
+
+#menu3 a.contato {
+  background: white;
+  color: blue;
+}
+
 #menu3 a:link,
 a:visited {
   color: white;
