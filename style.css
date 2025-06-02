@@ -3,10 +3,18 @@
   padding: 0px;
 }
 
-body {
+body,
+html {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   background-color: black;
+  height: 100%;
 }
 
+@font-face {
+  font-family: Ghost;
+  src: url(fontes/iknowaghost.ttf);
+}
 #apresentacao-nome {
   display: inline;
   position: relative;
@@ -32,7 +40,10 @@ a {
   text-decoration: none;
 }
 
-#menu a.home {
+#menu-home a.home,
+#menu2 a.sobre-mim,
+#menu3 a.contato,
+#menu4 a.sites {
   background: white;
   color: blue;
 }
@@ -47,7 +58,7 @@ a:visited {
   color: blue;
 }
 
-#menu a {
+#menu-home a {
   color: white;
   padding: 20px;
   position: relative;
@@ -88,81 +99,59 @@ a:visited {
   margin-top: 70px;
 }
 
-#menu2 {
+#menu2,
+#menu3,
+#menu4 {
   padding: 20px;
-}
-
-#menu2 a.sobre-mim {
-  background: white;
-  color: blue;
 }
 
 #menu2 a:link,
-a:visited {
-  color: white;
-}
-
-#menu2 a:hover {
-  background: white;
-  color: blue;
-}
-
-#menu2 a {
-  color: white;
-  padding: 15px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
-
-#sobreposicao1 {
-  position: absolute;
-  width: 300px;
-  height: 300px;
-  top: 100px;
-  left: 350px;
-  z-index: 1;
-}
-
-#sobreposicao2 {
-  position: relative;
-  width: 300px;
-  height: 300px;
-  top: 100px;
-  left: 600px;
-}
-
-#menu2 a {
-  padding: 20px;
-}
-
-#menu3 {
-  padding: 20px;
-}
-
-#menu3 a.contato {
-  background: white;
-  color: blue;
-}
-
+a:visited,
 #menu3 a:link,
+a:visited,
+#menu4 a:link,
 a:visited {
   color: white;
 }
 
-#menu3 a:hover {
+#menu2 a:hover,
+#menu3 a:hover,
+#menu4 a:hover {
   background: white;
   color: blue;
 }
 
-#menu3 a {
-  color: white;
-  padding: 15px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+#menu-home a,
+#menu2 a,
+#menu3 a,
+#menu4 a {
+  padding: 20px;
+  font: 1em Ghost;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-#menu3 a {
-  padding: 20px;
+/*
+---------------SOBRE MIM-------------*/
+
+.parallax {
+  background-image: url(imagens/binários.jpg);
+  height: 50%;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#container-sobre-mim {
+  background: #adcbf8;
+}
+
+.sobre-mim p {
+  text-align: center;
+  margin-bottom: 10px;
+  width: 40%;
+  color: black;
 }
 
 h4 {
@@ -174,35 +163,7 @@ h4 {
   margin-top: 5px;
 }
 
-#menu4 {
-  padding: 20px;
-}
-
-#menu4 a.sites {
-  background: white;
-  color: blue;
-}
-
-#menu4 a:link,
-a:visited {
-  color: white;
-}
-
-#menu4 a:hover {
-  background: white;
-  color: blue;
-}
-
-#menu4 a {
-  color: white;
-  padding: 15px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
-
-#menu4 a {
-  padding: 20px;
-}
+/*--------------PROJETOS------------*/
 
 #projetos {
   margin: 50px 0px 50px 50px;
