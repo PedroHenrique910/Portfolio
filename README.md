@@ -1,3 +1,3 @@
 No momento meu portifólio ainda se encontra em atualizações, mas fique a vontade para dar uma olhada :)
 
-![image](https://github.com/user-attachments/assets/4dd03030-fa88-40a7-93af-ae21c828837d)
+![image](https://github.com/user-attachments/assets/240d0970-9c25-4e62-b8a9-bd58b3c2b76b)
