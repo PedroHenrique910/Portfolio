@@ -3,84 +3,270 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/602ef41116.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
 </head>
 
-<body id="home">
-    <div id="cabecalho">
+<body>
+    <section id="home" class="d-flex align-items-center text-center text-white" style="
+    background-image: url('imagens/capa-home.avif');
+    background-size: cover;
+    background-position: center;
+    height: 100vh">
 
-        <h1 id="apresentacao-nome">Pedro Henrique</h1>
-        <h4 id="apresentacao-cargo">Front-End Developer</h4>
+        <div class="container">
+            <div class="row">
 
-        <div id="menu-home">
-            <a href="index.html" class="home">Home</a>
-            <a href="contato.html">Contato</a>
-            <a href="projetos.html">Projetos</a>
+                <div class="col-md-12">
+                    <p class="lead">Olá, visitante! 👋🏽</p>
+                    <h1 class="display-4 mt-2">Meu nome é Pedro</h1>
+                    <p class="lead">Desenvolvedor Front-End</p>
+                </div>
+
+                <div class="col-md-12 mt-2">
+                    <a href="https://www.linkedin.com/in/pedrohenrique910/">
+                        <i class="fa-brands fa-linkedin fa-2xl"></i>
+                    </a>
+
+                    <a href="https://github.com/PedroHenrique910">
+                        <i class="fa-brands fa-github fa-2xl ml-4"></i>
+                    </a>
+
+                    <a href="mailto:pedrodev910@gmail.com">
+                        <i class="fa-solid fa-envelope fa-2xl ml-4 "></i>
+                    </a>
+                </div>
+            </div>
         </div>
-    </div>
+    </section> <!--fim home-->
 
-    <div id="container">
-        <div id="introdução">
-            <p id="p-introducao">Olá! Meu nome é Pedro Henrique, tenho 19 anos e atualmente curso Análise e
-                Desenvolvimento de
-                Sistemas no
-                CEUNSP. Sou desenvolvedor Front-End e, além dos estudos, estou envolvido em um projeto voluntário,
-                onde
-                estou desenvolvendo um sistema para uma escola, com o objetivo de contribuir com soluções
-                tecnológicas
-                que facilitem o dia a dia da instituição.
-            </p>
+
+    <section id="sobre-mim">
+        <div class="container">
+            <div class="col-md-12">
+                <div>
+                    <h2 class="text-primary">Sobre mim</h2>
+                </div>
+
+                <div class="mt-4">
+                    <h4>Conheça mais sobre mim <i class="fa-solid fa-circle-user fa-lg"></i></h4>
+                </div>
+            </div>
+
+            <div class=" col-md-12 mt-4 text-white">
+                <p>Sou Desenvolvedor Front-End, com foco em criar interfaces modernas, responsivas e bem estruturadas.
+                    Trabalho principalmente com HTML, CSS e o framework Bootstrap, buscando sempre unir design e
+                    funcionalidade para entregar a melhor experiência ao usuário.
+                </p>
+                <p>
+                    Ao longo da minha jornada, já participei de diversos projetos práticos e acadêmicos. Desenvolvi um
+                    sistema de controle de vendas e estoque voltado para pequenos comércios, utilizando C# com
+                    Programação Orientada a Objetos, o que me deu uma base sólida também no back-end.
+                </p>
+                <p>Participei de um hackathon, onde, junto com a minha equipe, criei um sistema de verificação de
+                    presença inteligente, que só permite o registro de usuários presentes fisicamente em um ambiente
+                    específico.
+                </p>
+
+                <p> Fui apresentado ao mundo da programação por um professor, e desde então me vi apegado à esta
+                    área.Estou sempre buscando melhorar minhas habilidades, tanto no front quanto no back-end, e no
+                    futuro
+                    quero
+                    atuar como desenvolvedor full-stack. Também tenho bastante curiosidade por áreas como cibersegurança
+                    e
+                    automação industrial.
+                </p>
+            </div>
         </div>
-        </>
+    </section>
 
-        <div id="imagem-introducao">
-            <img src="imagens/Foto.jpg" alt="">
+    <section id="projetos"
+        style="background: url(imagens/textura-abstrata-gratis-foto.jpg); background-size: 200px no-repeat;"
+        class="img-fluid">
+
+        <div class=" container">
+            <div class="col-md-12">
+                <h2 class="text-primary titulo-projetos">Projetos</h2>
+            </div>
+
+            <div class="col-md-12 mt-4 text-dark mb-5">
+                <p>Confira alguns dos meus projetos mais recentes e veja como estou aplicando minhas habilidades em
+                    programação.</p>
+            </div>
+
+            <div class="row mt-4 text-white mb-5">
+                <div class="col-md-4">
+                    <a href="https://pedrohenrique910.github.io/Spotify/"><img src="imagens/Spotify.png" alt=""
+                            class="img-fluid border"></a>
+                    <h3>Spotify</h3>
+                    <div class="btn btn-sm btn-primary">
+                        HTML | CSS | Bootstrap
+                    </div>
+                    <p class="mb-5">Esse site é uma réplica do Spotify, feito usando o framework Bootstrap, com objetivo
+                        de
+                        aprendizado.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://pedrohenrique910.github.io/Finans/"><img src="imagens/Finans.png" alt=""
+                            class="img-fluid border"></a>
+                    <h3>Finans</h3>
+                    <div class="btn btn-sm btn-primary">
+                        HTML | CSS | Bootstrap
+                    </div>
+                    <p class="mb-5">Esse site é uma réplica do Spotify, feito usando o framework Bootstrap, com objetivo
+                        de
+                        aprendizado.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://pedrohenrique910.github.io/Super-Mario/"><img src="imagens/Site-Mario.png" alt=""
+                            class="img-fluid border"></a>
+                    <h3>Site Mario</h3>
+                    <div class="btn btn-sm btn-primary">
+                        HTML | CSS
+                    </div>
+                    <p class="mb-5">Site simples sobre o Super Mario, com curiosidades, imagens e informações sobre o
+                        personagem
+                        e o
+                        filme.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mt-4 text-white mb-5">
+                <div class="col-md-4">
+                    <a href="https://pedrohenrique910.github.io/Museu-Nacional/"><img src="imagens/Museu-Nacional.png"
+                            alt="" class="img-fluid border"></a>
+                    <h3>Museu Nacional</h3>
+                    <div class="btn btn-sm btn-primary">
+                        HTML | CSS
+                    </div>
+                    <p class="mb-5">Site institucional do Museu Nacional, com objetivo de apresentar informações
+                        sobre o museu, suas exposições, localização, história e formas de visitação.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://pedrohenrique910.github.io/Chale-Hotel/"><img src="imagens/Chalé-Hotel.png" alt=""
+                            class="img-fluid border"></a>
+                    <h3>Chalé Hotel</h3>
+                    <div class="btn btn-sm btn-primary">
+                        HTML | CSS
+                    </div>
+                    <p class="mb-5">Esse site é uma réplica do Spotify, feito usando o framework Bootstrap, com objetivo
+                        de
+                        aprendizado.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://pedrohenrique910.github.io/Cidade-Noticia/"><img src="imagens/Cidade Notícia.png"
+                            alt="" class="img-fluid border"></a>
+                    <h3>Notícias Cidade</h3>
+                    <div class="btn btn-sm btn-primary">
+                        HTML | CSS
+                    </div>
+                    <p class="mb-5">Site de notícias feito para treinar HTML e CSS, com seções como entrevistas,
+                        destaques,
+                        atualidades e mais.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mt-4 text-white">
+                <div class="col-md-4">
+                    <a href="https://pedrohenrique910.github.io/Verificador-de-Idade/"><img
+                            src="imagens/Verificador de idade.png" alt="" class="img-fluid border"></a>
+                    <h3>Verificador de Idade</h3>
+                    <div class="btn btn-sm btn-primary">
+                        HTML | CSS | JavaScript
+                    </div>
+                    <p class="mb-5">Site que calcula a idade com base no ano de nascimento e exibe uma imagem
+                        correspondente à faixa
+                        etária.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://pedrohenrique910.github.io/Dragons-Project/"><img src="imagens/SiteDragoes.png"
+                            alt="" class="img-fluid border"></a>
+                    <h3>Dragons Project</h3>
+                    <div class="btn btn-sm btn-primary">
+                        HTML | CSS | JavaScript
+                    </div>
+                    <p class="mb-5">Este é um projeto pessoal, informativo e interativo sobre dragões, desenvolvido com
+                        HTML, CSS e
+                        JavaScript.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://pedrohenrique910.github.io/Hora-do-Dia/"><img src="imagens/Hora do dia.png" alt=""
+                            class="img-fluid border"></a>
+                    <h3>Hora do Dia!</h3>
+                    <div class="btn btn-sm btn-primary">
+                        HTML | CSS | JavaScript
+                    </div>
+                    <p class="mb-5">Site que exibe a hora atual de forma interativa, com mudanças visuais como imagens e
+                        cores
+                        conforme o período do dia.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mt-4 text-white">
+                <div class="col-md-4">
+                    <a href="https://pedrohenrique910.github.io/Site-de-Modelo/"><img src="imagens/SiteModelo.png"
+                            alt="" class="img-fluid border"></a>
+                    <h3>Site de Modelo</h3>
+                    <div class="btn btn-sm btn-primary">
+                        HTML | CSS | JavaScript
+                    </div>
+                    <p class="mb-5">Site fictício de uma modelo, criado para praticar HTML e CSS.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="https://pedrohenrique910.github.io/TecBlog/"><img src="imagens/TecBlog.png" alt=""
+                            class="img-fluid border"></a>
+                    <h3>Tec Blog</h3>
+                    <div class="btn btn-sm btn-primary">
+                        HTML | CSS
+                    </div>
+                    <p class="mb-5">Site estático feito para aprendizado, com conteúdo simples
+                        sobre dispositivos móveis, inovações e tendências tecnológicas.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="https://pedrohenrique910.github.io/ProjetoUNES/"><img src="imagens/Projeto UNES.png" alt=""
+                            class="img-fluid border"></a>
+                    <h3>UNES - Universidade</h3>
+                    <div class="btn btn-sm btn-primary">
+                        HTML
+                    </div>
+                    <p class="mb-5">Site simples que apresenta dados fictícios da faculdade UNES e conta com abas de
+                        navegação, como
+                        home,
+                        entre outras.
+                    </p>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
 
 
-    <!-------SOBRE MIM------->
-    <div class="parallax">
-        <p>SOBRE MIM</p>
-    </div>
-
-    <div class="sobre-mim">
-        <div class="container-sobre-mim">
-            <p>Sou estudante de Análise e
-                Desenvolvimento de Sistemas no
-                CEUNSP. Atuo como desenvolvedor Front-End, apaixonado por tecnologia e por transformar ideias em
-                soluções
-                funcionais e intuitivas.
-            </p>
-
-            <img src="imagens/Ceunsp-scaled.jpg" alt="">
-        </div>
-    </div>
-
-    <div class="parallax2">
-
-    </div>
-
-    <div class="sobre-mim">
-        <div class="container-sobre-mim">
-            <p>
-                Atualmente, além dos meus estudos, participo de um projeto voluntário, onde estou desenvolvendo um
-                sistema
-                para uma escola. Meu objetivo é utilizar a tecnologia como uma ferramenta para facilitar o dia a dia da
-                instituição, contribuindo com soluções que realmente façam a diferença.
-            </p>
-
-            <p>
-                Estou em constante aprendizado e sempre em busca de novos desafios que me ajudem a crescer
-                profissionalmente
-                e pessoalmente.
-            </p>
-        </div>
-    </div>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
