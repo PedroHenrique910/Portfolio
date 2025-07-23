@@ -1,4 +1,4 @@
-<h2>Que tal dar uma olhada no meu Portfólio? Contém um pouco de informações sobre mim e dos projetos em que já trabalhei :)</h1>
+<h1>Para uma pequena visualização:</h1>
 <br>
 <br>
 
