@@ -1,3 +1,5 @@
-No momento meu portifólio ainda se encontra em atualizações, mas fique a vontade para dar uma olhada :)
+<h2>Que tal dar uma olhada no meu Portfólio? Contém um pouco de informações sobre mim e dos projetos em que já trabalhei :)</h1>
+<br>
+<br>
 
-![image](https://github.com/user-attachments/assets/240d0970-9c25-4e62-b8a9-bd58b3c2b76b)
+<img width="1353" height="767" alt="Portfólio" src="https://github.com/user-attachments/assets/0f9a3d4c-ddfa-4c59-b990-305e53e9b515" />
