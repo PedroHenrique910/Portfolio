@@ -9,8 +9,8 @@ html {
 }
 
 #sobre-mim {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 200px;
+  margin-bottom: 300px;
 }
 
 #sobre-mim h2 {
@@ -26,9 +26,23 @@ html {
   margin-bottom: 100px;
 }
 
-
+footer {
+  margin: 100px;
+}
 
 @media (max-width: 575.98px) {
+  footer .navbar {
+    flex-wrap: nowrap;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer h2,
+  p {
+    margin-bottom: 40px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
