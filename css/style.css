@@ -30,6 +30,10 @@ footer {
   margin: 100px;
 }
 
+footer h2 {
+  text-transform: uppercase;
+}
+
 @media (max-width: 575.98px) {
   footer .navbar {
     flex-wrap: nowrap;
